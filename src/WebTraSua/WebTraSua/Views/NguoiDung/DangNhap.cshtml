@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Đăng Nhập";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<h4 style="color:red; text-align:center">@ViewBag.ThongBao </h4>
+<table class="col_2_of_footer-top span_1_of_footer-top wrap">
+    <h3 style="text-align:center; color:black;font-size:40px;font-weight:bold"> Đăng Nhập</h3>
+    <br />
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        <tr height="50px">
+            <td style="color :#0094ff; font-size :20px"> Tài Khoản: </td>
+            <td>
+                <input type="text" name="TaiKhoan" required autocomplete="off" style="font-size:20px" />
+            </td>
+        </tr>
+        <tr height="50px">
+            <td style="color :#0094ff; font-size :20px"> Mật Khẩu: </td>
+            <td>
+                <input type="password" name="MatKhau" required autocomplete="off" style="font-size:20px" />
+            </td>
+        </tr>
+        <tr style="height:50px">
+            <td></td>
+            <td>
+                <input type="submit" value="Đăng Nhập" style="font-size:20px" />
+            </td>
+        </tr>
+        <tr><td><br /></td></tr>
+        <tr></tr>
+            <tr style="text-align:center;height:50px">
+                <td colspan="2" style="color :black"><span style="font-style:italic">Hoặc</span> @Html.ActionLink("Đăng Kí Để Làm Thành Viên.", "DangKi", "NguoiDung")</td>
+            </tr>
+    }
+</table>

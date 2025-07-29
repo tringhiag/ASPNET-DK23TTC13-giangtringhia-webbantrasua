@@ -1,0 +1,344 @@
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\ApplicationInsights.config
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\csc.exe
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\vbc.exe
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\VBCSCompiler.exe
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\WebTraSua.dll.config
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\WebTraSua.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\WebTraSua.pdb
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Antlr3.Runtime.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\EntityFramework.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\EntityFramework.SqlServer.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AI.Web.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Newtonsoft.Json.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Owin.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\PagedList.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\PagedList.Mvc.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.Helpers.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.Mvc.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.Optimization.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.Razor.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.WebPages.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.WebPages.Razor.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\WebGrease.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AI.Web.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\PagedList.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\PagedList.Mvc.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.Helpers.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.Mvc.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.Optimization.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.Razor.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.WebPages.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\System.Web.WebPages.Razor.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Antlr3.Runtime.pdb
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Newtonsoft.Json.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\EntityFramework.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\EntityFramework.SqlServer.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\obj\Debug\WebTraSua.csprojResolveAssemblyReference.cache
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\obj\Debug\WebTraSua.dll
+C:\Users\TRAMDK-PC\Desktop\luan\WebTraSua\WebTraSua\obj\Debug\WebTraSua.pdb
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\ApplicationInsights.config
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\csc.exe
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\vbc.exe
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\VBCSCompiler.exe
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\WebTraSua.dll.config
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\WebTraSua.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\WebTraSua.pdb
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Antlr3.Runtime.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\EntityFramework.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\EntityFramework.SqlServer.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.Web.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Newtonsoft.Json.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Owin.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\PagedList.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\PagedList.Mvc.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Helpers.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Mvc.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Optimization.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Razor.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.Razor.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\WebGrease.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.Web.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\PagedList.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\PagedList.Mvc.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Helpers.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Mvc.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Optimization.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Razor.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.Razor.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Antlr3.Runtime.pdb
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Newtonsoft.Json.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\EntityFramework.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\EntityFramework.SqlServer.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\obj\Debug\WebTraSua.csprojResolveAssemblyReference.cache
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\obj\Debug\WebTraSua.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\WebTraSua\WebTraSua\obj\Debug\WebTraSua.pdb
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\ApplicationInsights.config
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\csc.exe
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\vbc.exe
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\VBCSCompiler.exe
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\WebTraSua.dll.config
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\WebTraSua.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\WebTraSua.pdb
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Antlr3.Runtime.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\EntityFramework.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\EntityFramework.SqlServer.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.Web.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.ApplicationInsights.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Newtonsoft.Json.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Owin.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\PagedList.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\PagedList.Mvc.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Helpers.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Mvc.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Optimization.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Razor.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.Razor.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\WebGrease.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.Web.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.ApplicationInsights.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\PagedList.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\PagedList.Mvc.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Helpers.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Mvc.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Optimization.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.Razor.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\System.Web.WebPages.Razor.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Antlr3.Runtime.pdb
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Newtonsoft.Json.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\EntityFramework.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\EntityFramework.SqlServer.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\obj\Debug\WebTraSua.csprojResolveAssemblyReference.cache
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\obj\Debug\WebTraSua.dll
+C:\Users\TRAMDK-PC\Desktop\DoAnWeb\DoAnWeb\WebTraSua\WebTraSua\obj\Debug\WebTraSua.pdb
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\ApplicationInsights.config
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\csc.exe
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\vbc.exe
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\VBCSCompiler.exe
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\WebTraSua.dll.config
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\WebTraSua.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\WebTraSua.pdb
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Antlr3.Runtime.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\EntityFramework.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\EntityFramework.SqlServer.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AI.Web.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.ApplicationInsights.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Newtonsoft.Json.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Owin.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\PagedList.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\PagedList.Mvc.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.Helpers.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.Mvc.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.Optimization.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.Razor.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.WebPages.Deployment.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.WebPages.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.WebPages.Razor.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\WebGrease.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AI.Web.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.ApplicationInsights.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\PagedList.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\PagedList.Mvc.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.Helpers.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.Mvc.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.Optimization.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.Razor.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.WebPages.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.WebPages.Deployment.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\System.Web.WebPages.Razor.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Antlr3.Runtime.pdb
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Newtonsoft.Json.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\EntityFramework.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\EntityFramework.SqlServer.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\obj\Debug\WebTraSua.csprojResolveAssemblyReference.cache
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\obj\Debug\WebTraSua.dll
+C:\Users\NC Tien GH\Downloads\DoAnWeb_Final\DoAnWeb_Final\WebTraSua\WebTraSua\obj\Debug\WebTraSua.pdb

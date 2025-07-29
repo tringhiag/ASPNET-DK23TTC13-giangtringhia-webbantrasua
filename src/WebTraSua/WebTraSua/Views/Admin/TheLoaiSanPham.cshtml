@@ -1,0 +1,63 @@
+﻿@using WebTraSua.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<WebTraSua.Models.TheLoaiSanPham>
+@helper Truncate(string input, int length)
+{
+if (input.Length < length)
+{ @input }
+    else
+    {
+        @input.Substring(0, length)<text>...</text>
+}
+}
+@{
+    ViewBag.Title = "Quản Lý Thể Loại";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<br /><br />
+<h2>Thông Tin Thể Loại</h2>
+<p>
+    @Html.ActionLink("Thêm thể loại mới", "ThemMoiTheLoai")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th style="width:100px">Mã Thể Loại</th>
+        <th style="width:100px">Tên Thể Loại</th>
+        <th style="width:100px">Logo</th>
+        <th style="width:100px"></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaTheLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenTheLoai)
+            </td>
+            <td>
+                <img src="@Url.Content("~/images/" + item.Logo)" width="90" height="60" />
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "SuaTheLoai", new { id = item.MaTheLoai }) |
+                @Html.ActionLink("Chi tiết", "ChiTietTheLoai", new { id = item.MaTheLoai }) |
+                @Html.ActionLink("Xóa", "XoaTheLoai", new { id = item.MaTheLoai })
+            </td>
+        </tr>
+    }
+</table>
+<!--Tao lien ket các trang-->
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("TheLoaiSanPham", new { page = page }))
+    <p style="font-size:20px">Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</p>
+</div>
+<style>
+    .MenuTrang li {
+        color: white;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 0.5px solid;
+        font-size: 18px;
+</style>

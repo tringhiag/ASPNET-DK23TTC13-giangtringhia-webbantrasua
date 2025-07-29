@@ -1,0 +1,55 @@
+﻿
+
+@{
+    ViewBag.Title = "Trang Chủ";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+@using WebTraSua.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<ChiTietSanPham>
+<div class="wrap">
+    <div class="content-bottom">
+        @foreach (var sp in Model)
+        {
+            <div class="box1">
+                <div class="col_1_of_3 span_1_of_3">
+                    <a href=" @Url.Action("ChiTietSanPham", "WebTraSua", new { id = sp.MaSP }) ">
+                        <div class="view view-fifth">
+                            <div class="top_box">
+                                <p class="m_1" style="font-style:oblique">@sp.TenSP</p>
+                                <div class="grid_img">
+                                    <div class="css3"><img src="~/images/@sp.AnhBia " width="300" height="370" /></div>
+                                    <div class="mask">
+                                        <div class="info">Chi Tiết</div>
+                                    </div>
+                                </div>
+                                <div class="price">@sp.GiaBan VNĐ</div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+@*Tạo liên kết các trang *@
+<br />
+<div class="col_2_of_footer-top span_1_of_footer-top" style="margin-left:100px">
+    <div class="MenuTrang">
+        @Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }))
+        <p style="font-size:20px">Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</p>
+    </div>
+
+    <style>
+        .MenuTrang li {
+            float: left;
+            padding: 8px 16px;
+            text-decoration: none;
+            transition: background-color .3s;
+            border: 0.5px solid;
+            font-size: 18px;
+        }
+    </style>
+</div>
+<br /><br /><br /><br /><br /><br />

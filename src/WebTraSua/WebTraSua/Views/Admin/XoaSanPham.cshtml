@@ -1,0 +1,73 @@
+﻿@model WebTraSua.Models.ChiTietSanPham
+@{
+    ViewBag.Title = "XoaSanPham";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<br /><br />
+<h3>Xóa Sản Phẩm Này Khỏi Dữ Liệu ?</h3>
+<h5>* Thao tác này không thể phục hồi.</h5>
+<hr />
+<div>
+    <h4>Chi Tiết Sản Phẩm</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Ngày Cập Nhật:</dt>
+        <dd>
+            @String.Format("{0:dd/MM/yyyy}", Model.NgayCapNhat)
+        </dd>
+        <dt>Tên Sản Phẩm:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.TenSP)
+        </dd>
+        <dt>Nguyên Liệu:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.NguyenLieu)
+        </dd>
+        <dt>Giá Bán:</dt>
+        <dd>
+            @String.Format("{0:0,0}", Model.GiaBan) VNĐ
+        </dd>
+        <dt>Mô Tả:</dt>
+        <dd style="width:600px;text-align:justify">
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+        <dt>Số Lượng Tồn:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.SlTon)
+        </dd>
+        <dt>Thể Loại:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.TheLoaiSanPham.TenTheLoai)
+        </dd>
+        <dt>Phân Loại:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.PhanLoaiSanPham.Loai)
+        </dd>
+        <dt>Ảnh Bìa:</dt>
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.AnhBia)" width="120" />
+        </dd>
+        <dt>Ảnh_1:</dt>
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.Anh_1)" width="120" />
+        </dd>
+        <dt>Ảnh_2</dt>
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.Anh_2)" width="120" />
+        </dd>
+        <dt>Ảnh_3</dt>
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.Anh_3)" width="120" />
+        </dd>
+    </dl>
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color" style="font-size:20px">
+            @Html.ActionLink("Về Trang Quản Lý", "SanPham") |
+            <input type="submit" value="Xóa" class="btn btn-default" />
+        </div>
+    }
+</div>
+

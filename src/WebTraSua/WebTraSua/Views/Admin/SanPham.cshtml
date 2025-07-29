@@ -1,0 +1,100 @@
+﻿@using WebTraSua.Models;
+@using PagedList.Mvc;
+@model PagedList.PagedList<WebTraSua.Models.ChiTietSanPham>
+@helper Truncate(string input, int length)
+{
+if (input.Length < length)
+{ @input }
+    else
+    {
+        @input.Substring(0, length)<text>...</text>
+}
+}
+@{
+    ViewBag.Title = "Quản Lý Sản Phẩm";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<br /><br />
+<h2>Thông Tin Sản Phẩm</h2>
+<p>
+    @Html.ActionLink("Thêm sản phẩm mới", "ThemMoiSanPham")
+</p>
+<table class="table" border="1">
+    <tr>
+        <th style="width:200px">Ngày Cập Nhật</th>
+        <th style="width:200px">Tên Sản Phẩm</th>
+        <th style="width:200px">Nguyên Liệu</th>
+        <th style="width:200px">Giá Bán</th>
+        <th style="width:900px">Mô Tả</th>
+        <th style="width:200px">SL Tồn</th>
+        <th style="width:200px">Thể Loại</th>
+        <th style="width:200px">PhânLoại</th>
+        <th style="width:200px">Ảnh Bìa</th>
+        <th style="width:200px">Ảnh 1</th>
+        <th style="width:200px">Ảnh 2</th>
+        <th style="width:200px">Ảnh 3</th>
+        <th style="width:250px"></th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayCapNhat)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenSP)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NguyenLieu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GiaBan)
+            </td>
+            <td>
+                @Truncate(item.MoTa, 50)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SlTon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TheLoaiSanPham.TenTheLoai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhanLoaiSanPham.Loai)
+            </td>
+            <td>
+                <img src="@Url.Content("~/images/" + item.AnhBia)" width="50" height="60" />
+            </td>
+            <td>
+                <img src="@Url.Content("~/images/" + item.Anh_1)" width="50" height="60" />
+            </td>
+            <td>
+                <img src="@Url.Content("~/images/" + item.Anh_2)" width="50" height="60" />
+            </td>
+            <td>
+                <img src="@Url.Content("~/images/" + item.Anh_3)" width="50" height="60" />
+            </td>
+            <td>
+                @Html.ActionLink("Sửa", "SuaSanPham", new { id = item.MaSP }) |
+                @Html.ActionLink("Chi tiết", "ChiTietSanPham", new { id = item.MaSP }) |
+                @Html.ActionLink("Xóa", "XoaSanPham", new { id = item.MaSP })
+            </td>
+        </tr>
+    }
+</table>
+<!--Tao lien ket các trang-->
+<div class="MenuTrang">
+    @Html.PagedListPager(Model, page => Url.Action("SanPham", new { page = page }))
+    <p style="font-size:20px">Trang @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber)/@Model.PageCount</p>
+</div>
+<style>
+    .MenuTrang li {
+        color: white;
+        float: left;
+        padding: 8px 16px;
+        text-decoration: none;
+        transition: background-color .3s;
+        border: 0.5px solid;
+        font-size: 18px;
+</style>
+

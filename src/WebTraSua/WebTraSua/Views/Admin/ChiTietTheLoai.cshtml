@@ -1,0 +1,32 @@
+﻿@model WebTraSua.Models.TheLoaiSanPham
+
+@{
+    ViewBag.Title = "Chi Tiết";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<br /><br />
+<h2>Thông Tin Chi Tiết Thể Loại Sản Phẩm</h2>
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Mã Thể loại:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaTheLoai)
+        </dd>
+        <dt>Tên Thể loại:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.TenTheLoai)
+        </dd>
+        <dt>Logo:</dt>
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.Logo)" width="120" />
+        </dd>
+
+    </dl>
+</div>
+<br />
+<p style="font-size:20px">
+    @Html.ActionLink("Về Trang Quản Lý", "TheLoaiSanPham") |
+    @Html.ActionLink("Điều Chỉnh", "SuaTheLoai", new { id = Model.MaTheLoai }) |
+    @Html.ActionLink("Xóa", "XoaTheLoai", new { id = Model.MaTheLoai }) |
+</p><br /><br />

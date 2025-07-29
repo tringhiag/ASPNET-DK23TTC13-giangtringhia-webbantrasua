@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" href="~/Content/bootstrap.min.css">
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/tinymce/js/tinymce/tinymce.min.js"></script>
+    <script>tinymce.init({ selector: 'textarea' });</script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a style="margin-left:50px" class="navbar-brand" href="@Url.Action("Index", "Admin")"><img src="~/images/logo.png" height="50" title="Trang Chủ" /></a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav " style="margin-top:12px;margin-left:15px;font-size:20px;color:antiquewhite">
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Quản Lý <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="@Url.Action("SanPham","Admin")">Chi Tiết Sản Phẩm</a></li>
+                            <li><a href="@Url.Action("TheLoaiSanPham","Admin")">Thể Loại Sản Phẩm</a></li>
+                        </ul>
+                    </li>
+                    <li style="margin-top:10px;text-align:right">Chào Admin @Session["Ten_Admin"] !     /<span style="font-size:15px;font-style:italic"><a href="@Url.Action("Login", "Admin")">Đăng Xuất</a></span></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+    <div class="container body-content" style="margin-top:12px">
+        @RenderBody()
+    </div>
+</body>
+</html>

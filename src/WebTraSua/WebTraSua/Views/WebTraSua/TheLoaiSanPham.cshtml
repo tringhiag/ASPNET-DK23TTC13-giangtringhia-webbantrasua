@@ -1,0 +1,14 @@
+﻿@model IEnumerable<WebTraSua.Models.TheLoaiSanPham>
+<div class="list-group">
+    <style>
+        a.ex1:hover, a.ex1:active {
+            color: red;
+        }
+    </style>
+    @foreach (var item in Model)
+    {
+        <a class="ex1" style="font-size:20px;" href="@Url.Action("SP_TheoTheLoai","WebTraSua",new { id = item.MaTheLoai })" @*class="list-group-item"*@>
+            @item.TenTheLoai
+        </a>
+    }
+</div>

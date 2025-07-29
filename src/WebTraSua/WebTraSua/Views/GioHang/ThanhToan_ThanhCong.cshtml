@@ -1,0 +1,22 @@
+﻿@using WebTraSua.Models;
+@model List<GioHang>
+@{
+    ViewBag.Title = "Thành Toán_Thành Công";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<br />
+<hr />
+<h2 style="font-size:40px;text-align:center">Thanh toán thành công! Vui Lòng Xác Nhận 1 Lần Nữa!</h2>
+<hr /><br />
+<table class="wrap" style="font-size:20px">
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary(true)
+        <tr style="height:30px;text-align: center">
+            <td colspan="2">
+                <input type="Submit" value="Xác Nhận Đặt Hàng" style="font-size:20px" />
+            </td>
+        </tr>
+    }
+</table>
+<br />

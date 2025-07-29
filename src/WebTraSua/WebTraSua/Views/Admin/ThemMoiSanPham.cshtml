@@ -1,0 +1,109 @@
+﻿@model WebTraSua.Models.ChiTietSanPham
+@{
+    ViewBag.Title = "Thêm Sản Phẩm Mới";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<br /><br />
+<h2>Thêm Sản Phẩm Mới</h2>
+<div class="wrap">
+    @using (Html.BeginForm("ThemMoiSanPham", "Admin", FormMethod.Post, new { @enctype = "multipart/form-data" }))
+    {
+        @Html.AntiForgeryToken()
+        <div class="form-horizontal">
+            <h4>Chi Tiết Sản Phẩm</h4>
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Ngày Cập Nhật</div>
+                <div class="col-md-10">
+                    <input type="date" required name="NgayCapNhat" />
+                    @Html.ValidationMessageFor(model => model.NgayCapNhat)
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Tên Sản Phẩm</div>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.TenSP, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.TenSP, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Nguyên Liệu</div>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.NguyenLieu, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.NguyenLieu, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Giá Bán</div>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.GiaBan, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.GiaBan, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Mô Tả</div>
+                <div class="col-md-10">
+                    <textarea name="MoTa"></textarea>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Số Lượng</div>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.SlTon, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.SlTon, "", new { @class = "text-danger" })
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Thể Loại</div>
+                <div class="col-md-10">
+                    @Html.DropDownList("MaTheLoai")
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Phân Loại</div>
+                <div class="col-md-10">
+                    @Html.DropDownList("MaLoai")
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Ảnh Bìa</div>
+                <div class="col-md-10">
+                    <input type="file" name="fileUpload" />
+                    @*thong bao trung*@
+                    @ViewBag.Thongbao
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Ảnh_1</div>
+                <div class="col-md-10">
+                    <input type="file" name="fileUpload_1" />
+                    @*thong bao trung*@
+                    @ViewBag.Thongbao
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Ảnh_2</div>
+                <div class="col-md-10">
+                    <input type="file" name="fileUpload_2" />
+                    @*thong bao trung*@
+                    @ViewBag.Thongbao
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="control-label col-md-2" style="font-weight:bold">Ảnh_3</div>
+                <div class="col-md-10">
+                    <input type="file" name="fileUpload_3" />
+                    @*thong bao trung*@
+                    @ViewBag.Thongbao
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-10">
+                    <input type="submit" value="Thêm sản phẩm" class="btn btn-default" />
+                </div>
+            </div>
+        </div>
+    }
+    <div style="font-size:20px">@Html.ActionLink("Về trang Quản Lý", "SanPham")</div>
+</div>

@@ -1,0 +1,42 @@
+﻿@model WebTraSua.Models.TheLoaiSanPham
+
+@{
+    ViewBag.Title = "Xóa Thể Loại";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<br /><br />
+<h3>Xóa Thể loại Sản phẩm Này Khỏi Dữ Liệu ?</h3>
+<h5>* Thao tác này không thể phục hồi.</h5>
+<hr />
+<div>
+    <h4>Chi Tiết Thể Loại</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>Mã Thể Loại:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.MaTheLoai)
+        </dd>
+        <dt>Tên Thể Loại:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.TenTheLoai)
+        </dd>
+        <dt>Logo:</dt>
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.Logo)" width="120" />
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color" style="font-size:20px">
+            @Html.ActionLink("Về Trang Quản Lý", "Thể Loại Sản Phẩm") |
+            <input type="submit" value="Xóa" class="btn btn-default" /> |
+
+        </div>
+    }
+</div>
+
+

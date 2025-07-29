@@ -1,0 +1,282 @@
+﻿
+@using WebTraSua.Models;
+<!DOCTYPE HTML>
+<html>
+<head>
+
+    <title>Trà Sữa 3AE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="~/Content/style.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="~/Scripts/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".dropdown img.flag").addClass("flagvisibility");
+
+            $(".dropdown dt a").click(function() {
+                $(".dropdown dd ul").toggle();
+            });
+            $(".dropdown dd ul li a").click(function() {
+                var text = $(this).html();
+                $(".dropdown dt a span").html(text);
+                $(".dropdown dd ul").hide();
+                $("#result").html("Selected value is: " + getSelectedValue("sample"));
+            });
+            function getSelectedValue(id) {
+                return $("#" + id).find("dt a span.value").html();
+            }
+
+            $(document).bind('click', function(e) {
+                var $clicked = $(e.target);
+                if (! $clicked.parents().hasClass("dropdown"))
+                    $(".dropdown dd ul").hide();
+            });
+            $("#flagSwitcher").click(function() {
+                $(".dropdown img.flag").toggleClass("flagvisibility");
+            });
+        });
+    </script>
+    <!-- start menu -->
+    <link href="~/Content/megamenu.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="~/Scripts/megamenu.js"></script>
+    <script>$(document).ready(function(){$(".megamenu").megamenu();});</script>
+    <!-- end menu -->
+    <!-- top scrolling -->
+    <script type="text/javascript" src="~/Scripts/move-top.js"></script>
+    <script type="text/javascript" src="~/Scripts/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1200);
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="header-top">
+        <div class="wrap">
+            <div><a href="@Url.Action("Index","WebTraSua")"><img src="~/images/Logo_Webtrasua.png" title="Trang Chủ" height="50" width="600" /></a><span style="font-size:20px;font-style:italic">Chào @Session["HoTen"]</span>@{Html.RenderAction("GioHangPartial", "GioHang");}</div>
+            <div style="font-size:20px"> </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="header-bottom">
+        <div class="wrap">
+            <!-- start header menu -->
+            <ul class="megamenu skyblue">
+                <li><a class="color1" href="@Url.Action("Index","WebTraSua")">Trang Chủ</a></li>
+                <li class="grid">
+                    <a class="color2" href="">Phân Loại</a>
+                    <div class="megapanel">
+                        <div class="row">
+                            <div class="col1">
+                                <div class="h_nav">
+                                    <ul>
+                                        <li>@Html.Action("PhanLoaiSanPham", "WebTraSua")</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="active grid">
+                    <a class="color4" href="">Thể Loại</a>
+                    <div class="megapanel">
+                        <div class="row">
+                            <div class="col1">
+                                <div class="h_nav">
+                                    <ul>
+                                        <li>@Html.Action("TheLoaiSanPham", "WebTraSua")</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col1">
+                                <div class="h_nav">
+                                    <ul>
+                                        <img src="~/images/logo_Blended.png" width="100" height="90" />
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col1">
+                                <div class="h_nav">
+                                    <ul>
+                                        <img src="~/images/logo_MilkTea.png" width="100" height="90" />
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col1">
+                                <div class="h_nav">
+                                    <ul>
+                                        <img src="~/images/logo_Special.png" width="100" height="90" />
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col1">
+                                <div class="h_nav">
+                                    <ul>
+                                        <img src="~/images/logo_Tea.png" width="100" height="90" />
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col1">
+                                <div class="h_nav">
+                                    <ul>
+                                        <img src="~/images/logo_Nuocdongchai.png" width="100" height="90" />
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col2"></div>
+                            <div class="col1"></div>
+                            <div class="col1"></div>
+                            <div class="col1"></div>
+                            <div class="col1"></div>
+                        </div>
+                    </div>
+                </li>
+                <li style="float:right"><a class="color10" href="@Url.Action("DangNhap", "NguoiDung")">Đăng Nhập</a></li>
+                <li style="float:right"><a class="color8" href="@Url.Action("LienHe", "WebTraSua")">Liên Hệ</a></li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div class="index-banner">
+
+        <script src="~/Scripts/jquery.wmuSlider.js"></script>
+        <script type="text/javascript" src="~/Scripts/modernizr.custom.min.js"></script>
+        <script>
+            $('.example1').wmuSlider();
+        </script>
+    </div>
+    <div class="main">
+        <div>
+            @RenderBody()
+        </div>
+    </div>
+
+    <!--nhúng chat facebook-->
+    <script>
+        (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v2.5";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+    <style>
+        #cfacebook {
+            position: fixed;
+            bottom: 25px;
+            right: 20px;
+            z-index: 99;
+            width: 243px;
+            height: auto;
+            box-shadow: 6px 6px 6px 10px rgba(0,0,0,0.2);
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            overflow: hidden;
+        }
+
+            #cfacebook .fchat {
+                float: left;
+                width: 100%;
+                height: 270px;
+                overflow: hidden;
+                display: none;
+                background-color: #fff;
+            }
+
+                #cfacebook .fchat .fb-page {
+                    margin-top: -5px;
+                    float: left;
+                }
+
+            #cfacebook a.chat_fb {
+                float: left;
+                padding: 0 7px;
+                width: 260px;
+                color: #fff;
+                text-decoration: none;
+                height: 40px;
+                line-height: 40px;
+                text-shadow: 0 1px 0 rgba(0,0,0,0.1);
+                background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAqCAMAAABFoMFOAAAAWlBMV…8/UxBxQDQuFwlpqgBZBq6+P+unVY1GnDgwqbD2zGz5e1lBdwvGGPE6OgAAAABJRU5ErkJggg==);
+                background-repeat: repeat-x;
+                background-size: auto;
+                background-position: 0 0;
+                background-color: #3a5795;
+                border: 0;
+                border-bottom: 1px solid #133783;
+                z-index: 9999999;
+                margin-right: 12px;
+                font-size: 18px;
+            }
+
+                #cfacebook a.chat_fb:hover {
+                    color: yellow;
+                    text-decoration: none;
+                }
+
+        .fchat span {
+            width: 260px !important;
+        }
+    </style>
+    <script>
+        jQuery(document).ready(function () {
+            jQuery(".chat_fb").click(function() {
+                jQuery('.fchat').toggle('slow');
+            });
+        });
+    </script>
+    <div id="fb-root"></div>
+    <div id="cfacebook">
+        <a href="javascript:;" class="chat_fb" onClick="return:false;"><i class="fa fa-facebook-square"></i>Chat với Trà Sữa 3AE</a>
+        <div class="fchat">
+            <div style="width:250px;" class="fb-page"
+                 data-href="https://www.facebook.com/Trà-Sữa-3AE-375737949611313/"
+                 data-tabs="messages"
+                 data-width="260"
+                 data-height="280"
+                 data-small-header="true">
+                <div class="fb-xfbml-parse-ignore">
+                    <blockquote></blockquote>
+                </div>
+            </div>
+        </div>
+    </div> <!--nhúng chat facebook-->
+    <!--gọi dt-->
+    <style>
+        #floating-phone {
+            display: none;
+            position: fixed;
+            left: 10px;
+            bottom: 70px;
+            height: 50px;
+            width: 50px;
+            background: #46C11E url(http://callnowbutton.com/phone/callbutton01.png) center / 30px no-repeat;
+            z-index: 99;
+            color: #FFF;
+            font-size: 35px;
+            line-height: 55px;
+            text- align: center;
+            border-radius: 50%;
+            -webkit-box-shadow: 0 2px 5px rgba(0,0,0,.5);
+            -moz-box-shadow: 0 2px 5px rgba(0,0,0,.5);
+            box-shadow: 0 2px 5px rgba(0,0,0,.5);
+        }
+
+        @@media (max-width: 650px) {
+            #floating-phone {
+                display: block;
+            }
+        }
+    </style>
+    <a href="tel:0123456789" title="Gọi 0123456789" onclick="_gaq.push(['_trackEvent', 'Contact', 'Call Now Button', 'Phone']);" id="floating-phone">
+        <i class="uk-icon-phone"></i>
+    </a>
+    <!--/gọi dt-->
+</body>
+</html>

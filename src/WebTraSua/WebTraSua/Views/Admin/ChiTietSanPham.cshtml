@@ -1,0 +1,67 @@
+﻿
+@model WebTraSua.Models.ChiTietSanPham
+@{
+    ViewBag.Title = "ChiTietSanPham";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+<br /><br />
+<h2>Thông Tin Chi Tiết Sản Phẩm</h2>
+<div>
+    <dl class="dl-horizontal">
+        <dt>Ngày Cập Nhật:</dt>
+        <dd>
+            @String.Format("{0:dd/MM/yyyy}", Model.NgayCapNhat)
+        </dd>
+
+        <dt>Tên Đàn:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.TenSP)
+        </dd>
+        <dt>Nguyên Liệu:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.NguyenLieu)
+        </dd>
+        <dt>Giá Bán:</dt>
+        <dd>
+            @String.Format("{0:0,0}", Model.GiaBan) VNĐ
+        </dd>
+        <dt>Mô Tả:</dt>
+        <dd style="width:600px;text-align:justify">
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+        <dt>Số Lượng Tồn:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.SlTon)
+        </dd>
+        <dt>Thể Loại:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.TheLoaiSanPham.TenTheLoai)
+        </dd>
+        <dt>Phân Loại:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.PhanLoaiSanPham.Loai)
+        </dd>
+        <dt>Ảnh Bìa:</dt>
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.AnhBia)" width="120" />
+        </dd>
+        <dt>Ảnh_1:</dt>
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.Anh_1)" width="120" />
+        </dd>
+        <dt>Ảnh_2</dt>
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.Anh_2)" width="120" />
+        </dd>
+        <dt>Ảnh_3</dt>
+        <dd>
+            <img src="@Url.Content("~/images/" + Model.Anh_3)" width="120" />
+        </dd>
+    </dl>
+</div>
+<br />
+<p style="font-size:20px">
+    @Html.ActionLink("Về Trang Quản Lý", "SanPham") |
+    @Html.ActionLink("Điều Chỉnh", "SuaSanPham", new { id = Model.MaSP }) |
+    @Html.ActionLink("Xóa", "XoaSanPham", new { id = Model.MaSP }) |
+</p><br /><br />

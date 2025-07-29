@@ -1,0 +1,150 @@
+﻿@using WebTraSua.Models;
+@{
+    ViewBag.Title = "Chi Tiêt Sản Phẩm";
+    Layout = "~/Views/Shared/_LayoutUser.cshtml";
+}
+<!----details-product-slider--->
+<!-- Include the Etalage files -->
+<link rel="stylesheet" href="~/Content/etalage.css">
+<script src="~/Scripts/jquery.etalage.min.js"></script>
+<!-- Include the Etalage files -->
+<script>
+    jQuery(document).ready(function ($) {
+
+        $('#etalage').etalage({
+            thumb_image_width: 300,
+            thumb_image_height: 400,
+
+            show_hint: true,
+            click_callback: function (image_anchor, instance_id) {
+                alert('Callback example:\nYou clicked on an image with the anchor: "' + image_anchor + '"\n(in Etalage instance: "' + instance_id + '")');
+            }
+        });
+        // This is for the dropdown list example:
+        $('.dropdownlist').change(function () {
+            etalage_show($(this).find('option:selected').attr('class'));
+        });
+    });
+</script>
+<!----//details-product-slider--->
+<!-- top scrolling -->
+<script type="text/javascript" src="~/Scripts/move-top.js"></script>
+<script type="text/javascript" src="~/Scripts/easing.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+            event.preventDefault();
+            $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1200);
+        });
+    });
+</script>
+<style>
+    .button2 {
+        background-color: #555;
+        border: 2px solid #008CBA;
+        padding: 14px 40px;
+        font-size: 30px;
+    }
+
+        .button2:hover {
+            background-color: orange;
+        }
+</style>
+
+<h3 style="color:black;font-size:18pt;text-align:center">Thông Tin Sản Phẩm</h3>
+<h3 class="m_3" style="font-weight:bold;font-size:35px;text-align:center">@Model.TenSP</h3>
+<div class="single">
+    <div class="wrap">
+        <div class="cont span_2_of_3">
+            <div class="cont1 span_1_of_a1">
+                <p class="m_desc" style="font-size:15px"><Span style="font-weight: bold;font-size:20px">Phân Loại Sản Phẩm : </Span>@Model.PhanLoaiSanPham.Loai</p>
+                <p class="m_desc" style="font-size:15px"><Span style="font-weight: bold;font-size:20px">Nguyên Liệu : </Span>@Model.NguyenLieu</p>
+                <p class="m_desc" style="font-size:15px"><Span style="font-weight: bold;font-size:20px">Mô Tả : </Span>@Model.MoTa</p>
+                <div class="price_single">
+                    <span class="actual">Giá: @Model.GiaBan VNĐ</span>
+                </div>
+                <div class="social_single">
+                    <ul>
+                        <li class="fb"><a href="#"><span> </span></a></li>
+                        <li class="tw"><a href="#"><span> </span></a></li>
+                        <li class="g_plus"><a href="#"><span> </span></a></li>
+                        <li class="rss"><a href="#"><span> </span></a></li>
+                    </ul>
+                </div>
+                <br />
+                <button class="button2"><a style="color:#FFF" href="@Url.Action("ThemGioHang", "GioHang", new { @iMaSP= @Model.MaSP,@strURL= Request.Url.ToString()})"> Giỏ Hàng</a></button>
+            </div>
+            <div class="labout span_1_of_a1">
+                <!-- start product_slider -->
+                <ul id="etalage">
+                    <li>
+                        <img class="etalage_thumb_image" src="~/images/@Model.AnhBia" />
+                        <img class="etalage_source_image" src="~/images/@Model.AnhBia" />
+                    </li>
+                    <li>
+                        <img class="etalage_thumb_image" src="~/images/@Model.Anh_1" />
+                        <img class="etalage_source_image" src="~/images/@Model.Anh_1" />
+                    </li>
+                    <li>
+                        <img class="etalage_thumb_image" src="~/images/@Model.Anh_2" />
+                        <img class="etalage_source_image" src="~/images/@Model.Anh_2" />
+                    </li>
+                    <li>
+                        <img class="etalage_thumb_image" src="~/images/@Model.Anh_3" />
+                        <img class="etalage_source_image" src="~/images/@Model.Anh_3" />
+                    </li>
+                </ul>
+                <!-- end product_slider -->
+            </div>
+            <div class="clear"></div>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $("#flexiselDemo1").flexisel();
+                    $("#flexiselDemo2").flexisel({
+                        enableResponsiveBreakpoints: true,
+                        responsiveBreakpoints: {
+                            portrait: {
+                                changePoint: 480,
+                                visibleItems: 1
+                            },
+                            landscape: {
+                                changePoint: 640,
+                                visibleItems: 2
+                            },
+                            tablet: {
+                                changePoint: 768,
+                                visibleItems: 3
+                            }
+                        }
+                    });
+                    $("#flexiselDemo3").flexisel({
+                        visibleItems: 5,
+                        animationSpeed: 1000,
+                        autoPlay: true,
+                        autoPlaySpeed: 3000,
+                        pauseOnHover: true,
+                        enableResponsiveBreakpoints: true,
+                        responsiveBreakpoints: {
+                            portrait: {
+                                changePoint: 480,
+                                visibleItems: 1
+                            },
+                            landscape: {
+                                changePoint: 640,
+                                visibleItems: 2
+                            },
+                            tablet: {
+                                changePoint: 768,
+                                visibleItems: 3
+                            }
+                        }
+                    });
+
+                });
+            </script>
+            <script type="text/javascript" src="~/Scripts/jquery.flexisel.js"></script>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+</div>
